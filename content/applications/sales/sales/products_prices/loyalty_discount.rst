@@ -74,6 +74,16 @@ accessible through the smart button located in the upper-right corner of the for
    :align: center
    :alt: Program items smart button on the loyalty program form.
 
+.. note::
+  In Odoo 17 (and later), when a loyalty/coupon card is related to a contact in the database, a
+  :guilabel:`Loyalty Cards` smart button appears on the contact form.
+
+  .. image:: loyalty_discount/loyalty-cards-smart-button.png
+    :align: center
+    :alt: The Loyalty Card smart button as it appears on a contact form in Odoo 17.
+
+  This smart button **only** appears if a loyaly/coupon card is associated with the contact.
+
 .. _sales/pricing_management/program-types:
 
 Program types
