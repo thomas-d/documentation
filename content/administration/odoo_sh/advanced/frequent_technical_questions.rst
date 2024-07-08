@@ -29,3 +29,24 @@ We advise that:
 - Your scheduled actions should be
   `idempotent <https://stackoverflow.com/a/1077421/3332416>`_: they must not
   cause side-effects if they are started more often than expected.
+
+Ip address modification?
+------------------------
+
+**Odoo.sh notifies instances on ip modification.**
+When an instance has been moved for maintenance purposes an GET HTTP request in sent on the route /_odoo.sh/ip-change
+with the new ip as the GET attribute. It allows you to decide what behavior you want within your production instance,
+for example:
+
+.. code-block:: python
+
+    from odoo import http
+
+    class MyController(http.Controller):
+
+        @http.route('/_odoo.sh/ip-change', auth='public')
+        def ip_change(self, ip=None):
+            # Update an ir.config_paramater, send an email, notify another service, etc ...
+
+The security is handled by the platform: access from the outside is blocked.
+The route is only callable from within the platform.
