@@ -29,7 +29,7 @@ Once the terminal is configured, you can :doc:`create the corresponding payment 
 the POS <../payment_methods>`.
 
 .. toctree::
-   :titlesonly:- :doc:`Vantiv configuration <terminals/vantiv>`
+   :titlesonly:
 
    terminals/adyen
    terminals/ingenico
