@@ -2,41 +2,8 @@
 Chapter 7: Relations Between Models
 ===================================
 
-The previous chapter <06_basicviews> covered the creation of custom
-views for a model containing basic fields. However, in any real business scenario we need more than
-one model. Moreover, links between models are necessary. One can easily imagine one model containing
-the customers and another one containing the list of users. You might need to refer to a customer
-or a user on any existing business model.
-
-In our real estate module, we want the following information for a property:
-
-- the customer who bought the property
-- the real estate agent who sold the property
-- the property type: house, apartment, penthouse, castle...
-- a list of tags characterizing the property: cozy, renovated...
-- a list of the offers received
-
 Many2one
 ========
-
-**Reference**: the documentation related to this topic can be found in
-:class:`~odoo.fields.Many2one`.
-
-.. note::
-
-    **Goal**: at the end of this section:
-
-    - a new ``estate.property.type`` model should be created with the corresponding menu, action and views.
-
-    .. image:: 07_relations/property_type.png
-        :align: center
-        :alt: Property type
-
-    - three Many2one fields should be added to the ``estate.property`` model: property type, buyer and seller.
-
-    .. image:: 07_relations/property_many2one.png
-        :align: center
-        :alt: Property
 
 In our real estate module, we want to define the concept of property type. A property type
 is, for example, a house or an apartment. It is a standard business need to categorize
@@ -123,25 +90,6 @@ Now let's have a look at other types of links.
 Many2many
 =========
 
-**Reference**: the documentation related to this topic can be found in
-:class:`~odoo.fields.Many2many`.
-
-.. note::
-
-    **Goal**: at the end of this section:
-
-    - a new ``estate.property.tag`` model should be created with the corresponding menu and action.
-
-    .. image:: 07_relations/property_tag.png
-        :align: center
-        :alt: Property tag
-
-    - tags should be added to the ``estate.property`` model:
-
-    .. image:: 07_relations/property_many2many.png
-        :align: center
-        :alt: Property
-
 In our real estate module, we want to define the concept of property tags. A property tag
 is, for example, a property which is 'cozy' or 'renovated'.
 
@@ -185,20 +133,6 @@ operations like ``recs1 | recs2``.
 
 One2many
 ========
-
-**Reference**: the documentation related to this topic can be found in
-:class:`~odoo.fields.One2many`.
-
-.. note::
-
-    **Goal**: at the end of this section:
-
-    - a new ``estate.property.offer`` model should be created with the corresponding form and tree view.
-    - offers should be added to the ``estate.property`` model:
-
-    .. image:: 07_relations/property_offer.png
-        :align: center
-        :alt: Property offers
 
 In our real estate module, we want to define the concept of property offers. A property offer
 is an amount a potential buyer offers to the seller. The offer can be lower or higher than the
