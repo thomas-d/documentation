@@ -137,7 +137,9 @@ measurement codes and related code fragments, collectively known as tags on your
 app, directly through the code injector.
 
 .. warning::
-   Google Tag Manager may not be compliant with local data protection regulations.
+   - GTM integration is possible in Odoo standard, although some data layers might not be installed
+     (e.g. advanced eCommerce tracking data layers).
+   - Google Tag Manager may not be compliant with local data protection regulations.
 
 To use GTM, proceed as follows:
 
