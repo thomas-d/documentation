@@ -306,6 +306,25 @@ Fill out the following fields on the form:
     number of :guilabel:`Days` that can roll over to the following year. Any time off beyond this
     parameter is lost.
 
+.. important::
+   If the :guilabel:`Carry over` field is set to :guilabel:`None. Accrued time reset to 0`, that
+   rule *overrides* the :guilabel:`Carry-Over Time` set on the accrual plan.
+
+   If a company creates an accrual plan, granting employees time off :guilabel:`At the start of the
+   accrual period` (the beginning of the year), and sets the :guilabel:`Carry-Over Time` on the
+   *accrual plan* to :guilabel:`At the start of the year`, allowing unused vacation time to rollover
+   to the following year.
+
+   Then, the company adds rules to the accrual plan, annually allocating five days of vacation, on
+   the first of the year (one week of vacation allocated on January 1st).
+
+   If the :guilabel:`Carry over` field is set to :guilabel:`None. Accrual time reset to 0`, any
+   unused vacation time **DOES NOT carry over**, even though on the :guilabel:`Accrual Plan` form,
+   the :guilabel:`Carry-Over Time` is set to :guilabel:`At the start of the year`.
+
+   The carry over set on the *rule* **takes precedence** over the carry over set on the *accrual
+   plan form*.
+
 Once the form is completed, click :guilabel:`Save & Close` to save the form and close the modal, or
 click :guilabel:`Save & New` to save the form and create another milestone. Add as many milestones
 as desired.
