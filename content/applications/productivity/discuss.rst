@@ -23,7 +23,7 @@ Direct messages allow the user to communicate privately with one or multiple tea
 a new direct message, click the :icon:`fa-plus` icon next to :guilabel:`Direct Messages`.
 
 Direct message actions
------------------------
+----------------------
 
 Hover over a direct message to see a menu of actions to take on the message.
 
@@ -37,7 +37,7 @@ Clicking :icon:`fa-ellipsis-h` :guilabel:`Expand` reveals more message actions, 
 :guilabel:`Pin`, :guilabel:`Mark as Unread`, :guilabel:`Edit`, and :guilabel:`Delete`.
 
 Conversation Actions
----------------------
+--------------------
 
 The icons in the top right corner of a direct message conversation indicate different actions the
 user can take on that conversation.
@@ -59,7 +59,7 @@ At the top of the :guilabel:`Direct Message` page, click the name of the direct 
 the group name.
 
 User status
-------------
+-----------
 
 It is helpful to see what colleagues are up to and how quickly they can respond to messages by
 checking their *status*. The status is shown on the left side of a contact's name on the
@@ -71,7 +71,7 @@ checking their *status*. The status is shown on the left side of a contact's nam
 - Airplane = out of the office
 
 Deleting a direct message conversation
----------------------------------------
+--------------------------------------
 
 To delete direct message conversations from the :guilabel:`Direct Message` view, click the
 :guilabel:`X` next to the name of the direct message conversation. This does not delete the
@@ -102,7 +102,7 @@ and :icon:`fa-video-camera` :guilabel:`Turn camera on/off`. Clicking the :icon:`
 :guilabel:`Enter Full Screen`.
 
 Configuration
-==============
+=============
 
 Selecting :guilabel:`Configuration` at the top of the Discuss homepage triggers a dropdown menu of
 options including :guilabel:`Notification` :guilabel:`Voice & Video`, and
