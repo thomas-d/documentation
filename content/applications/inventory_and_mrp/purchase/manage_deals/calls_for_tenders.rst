@@ -9,7 +9,7 @@ Call for tenders
 .. |RfQ| replace:: :abbr:`RfQ (Request for Quotation)`
 .. |RfQs| replace:: :abbr:`RfQs (Requests for Quotation)`
 
-Sometimes companies might want to invite vendors to submit offers for similar goods or services all
+Sometimes, companies might want to invite vendors to submit offers for similar goods or services all
 at once. This helps companies to select the cheapest, fastest vendors for their specific business
 needs.
 
@@ -216,7 +216,7 @@ To view a detailed form of one of the |RfQs| listed, click the line item for tha
 opens an :guilabel:`Open: Alternative POs` pop-up window, from which all details of that particular
 |RfQ| can be viewed.
 
-Once ready, click Close to close the pop-up window.
+Once ready, click :guilabel:`Close` to close the pop-up window.
 
 In the :guilabel:`What about the alternative Requests for Quotations?` window, two options are
 presented: :guilabel:`Cancel Alternatives` and :guilabel:`Keep Alternatives`.
